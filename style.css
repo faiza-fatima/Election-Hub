@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/1317125.png') ;/* Add the path to your food cover image */
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+h2.masked-text {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e74c3c; /* Tomato red color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #f39c12; /* Pumpkin orange color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.center {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: #FFD700; /* Yellow color for button */
+    border: none;
+    color: #fff;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFA500; /* Darker yellow on hover */
+    transform: scale(1.05);
+}
+#displayText {
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #27ae60; /* Mint green color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
