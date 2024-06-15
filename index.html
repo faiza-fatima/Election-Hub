@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Menu</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Voting App</title>
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
-    <center>
-    <h2 class="masked-text">Food Poll</h2>
-    <p>Vote for your favourite menu</p>
-    <p id="displayText"></p>
-    <button id="chicken65btn" onclick="chicken65votecount()">chicken 65</button>
-    <button id="biryanibtn" onclick="biryanivotecount()">Biryani</button>
-    <button id="Maragbtn" onclick="Maragvotecount()">Marag</button>
-<p id="text"></p>
-    </center>
+    <div class="overlay"></div>
+    <div class="center">
+        <div class="content-box">
+            <h2 class="masked-text">Welcome to Our Restro!</h2>
+            <p>Experience the best food recipes from around the world. Enjoy your meal from our world class chefs.</p>
+            <button id="pizzaBtn" onclick="vote('pizza')">
+            <!-- <button onclick="displayMessage('You clicked on chicken 65! Enjoy your meal!')"> -->
+                <img src="https://img.icons8.com/emoji/48/000000/pizza-emoji.png" alt="Pizza Icon">
+                Pizza
+            </button>
+            <button id="burgerBtn" onclick="vote('burger')">
+            <!-- <button onclick="displayMessage('You clicked on Burger! Enjoy your meal!')"> -->
+                <img src="https://img.icons8.com/emoji/48/000000/hamburger-emoji.png" alt="Burger Icon">
+                Burger
+            </button>
+            <button id="sushiBtn" onclick="vote('sushi')">
+            <!-- <button onclick="displayMessage('You clicked on Sushi! Enjoy your meal!')"> -->
+                <img src="https://img.icons8.com/emoji/48/000000/sushi-emoji.png" alt="Sushi Icon">
+                Sushi
+            </button>
+            <div id="displayText"></div>
+        </div>
+    </div>
+
+    <script src="main3.js"></script>
 </body>
-<script src="main.js"></script>
 </html>

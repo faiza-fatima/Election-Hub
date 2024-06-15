@@ -1,5 +1,8 @@
 body {
-    background-image: url('https://wallpaperaccess.com/full/1317125.png'); /* Add the path to your food cover image */
+   
+   
+    background-image: url('https://wallpaperaccess.com/full/1317125.png'); 
+    /* Add the path to your food cover image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,16 +19,16 @@ body {
 h2.masked-text {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #e74c3c; /* Tomato red color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: #3ce7d9; /* Tomato red color */
+    text-shadow: 2px 2px 4px rgba(196, 108, 108, 0.7);
     font-weight: bold;
 }
 
 p {
     font-size: 1.3em;
     margin-bottom: 20px;
-    color: #f39c12; /* Pumpkin orange color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: #6aeef3; /* Pumpkin orange color */
+    text-shadow: 2px 2px 4px rgba(165, 98, 98, 0.7);
     line-height: 1.6;
 }
 
@@ -38,14 +41,14 @@ p {
 }
 
 .content-box {
-    background: rgba(0, 0, 0, 0.6); /* Adding a semi-transparent background for better text visibility */
+    background: rgba(8, 8, 8, 0.6); /* Adding a semi-transparent background for better text visibility */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 button {
-    background-color: #FFD700; /* Yellow color for button */
+    background-color: #03b2c9; /* Yellow color for button */
     border: none;
     color: #fff;
     padding: 15px 40px;
@@ -61,18 +64,18 @@ button {
 }
 
 button:hover {
-    background-color: #FFA500; /* Darker yellow on hover */
+    background-color: #5eddc2; /* Darker yellow on hover */
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
 }
 
 button:active {
-    background-color: #8800ff;
+    background-color: #40b0f1;
 }
 
 #displayText {
     font-size: 1.4em;
     margin-top: 20px;
-    color: #27ae60; /* Mint green color */
+    color: #8eeee6; /* Mint green color */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
